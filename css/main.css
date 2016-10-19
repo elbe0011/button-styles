@@ -1,13 +1,54 @@
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
+  max-width: 400px;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 0.5em 0.75em 0.5em;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+}
+
 div {
   padding: .5rem;
   text-align: center;
+}
+
+.btn {
+  font-size: 1.125rem;
+}
+
+.btn-small {
+  font-size: 0.875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.btn-ghost {
+  color: #000;
+  background-color: #fff;
+  border-color: #000;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
+  border-color: #f33;
 }
