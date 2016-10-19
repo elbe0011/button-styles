@@ -8,16 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-  border: 3px solid;
-  border-radius: 8px;
-  padding: 0.5em 0.75em 0.5em;
-  color: #fff;
-  background-color: #333;
-  border-color: #333;
-}
-
 div {
   padding: .5rem;
   text-align: center;
@@ -26,16 +16,21 @@ div {
 .btn {
   font-size: 1.125rem;
   display: inline-block;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 0.4em 0.75em 0.3em;
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
 }
 
 .btn-small {
   font-size: 0.875rem;
-  display: inline-block;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  display: inline-block;
 }
 
 .btn-subtle {
