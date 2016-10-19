@@ -9,7 +9,6 @@ html {
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   border: 3px solid;
   border-radius: 8px;
@@ -26,14 +25,17 @@ div {
 
 .btn {
   font-size: 1.125rem;
+  display: inline-block;
 }
 
 .btn-small {
   font-size: 0.875rem;
+  display: inline-block;
 }
 
 .btn-big {
   font-size: 1.5rem;
+  display: inline-block;
 }
 
 .btn-subtle {
